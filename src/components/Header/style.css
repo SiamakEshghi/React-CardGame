@@ -1,0 +1,12 @@
+.header {
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    max-height: 60px;
+    width: auto;
+}

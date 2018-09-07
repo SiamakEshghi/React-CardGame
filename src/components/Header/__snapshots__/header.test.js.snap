@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Should render correctly 1`] = `
+<div
+  className="header"
+>
+  <img
+    className="logo"
+    src="logo.png"
+  />
+  <h2>
+    CARD GAME
+  </h2>
+  <h5>
+    React App
+  </h5>
+</div>
+`;

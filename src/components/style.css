@@ -1,0 +1,31 @@
+.container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.dealedList {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 10px;
+}
+.dealedDeck{
+    padding: 5px;
+}
+.deckZone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.deckZone h4 {
+    margin-bottom: 10px;
+}
+.deckZone button {
+    margin-top: 20px;
+    background-color: chartreuse;
+}

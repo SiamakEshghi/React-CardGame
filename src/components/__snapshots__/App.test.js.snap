@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App UI Should render correctly 1`] = `
+<App>
+  <div>
+    <Component>
+      <div
+        className="header"
+      >
+        <img
+          className="logo"
+          src="logo.png"
+        />
+        <h2>
+          CARD GAME
+        </h2>
+        <h5>
+          React App
+        </h5>
+      </div>
+    </Component>
+    <div
+      className="container"
+    >
+      <div
+        className="deckZone"
+      >
+        <h4>
+          Click On Deck For Deal
+        </h4>
+        <div
+          className="dealBtn"
+          onClick={[Function]}
+        >
+          <Component
+            back={true}
+          >
+            <div
+              className="card"
+            >
+              <img
+                className="back"
+                src="cardBack.png"
+              />
+            </div>
+          </Component>
+        </div>
+        <button
+          onClick={[Function]}
+        >
+          Shuffle
+        </button>
+      </div>
+      <div
+        className="dealedList"
+      />
+    </div>
+  </div>
+</App>
+`;
